@@ -1,0 +1,20 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --grey: #c3cbd6;
+  --olive-green: #748b6f;
+  --med-green: #3d4e17;
+  --dark-green: #2a403d;
+  --faded-red: #d05663;
+  --pale-yellow: #ede599;
+  --yellow: #ffb400;
+  --dark-yellow: #c7a003;
+  --navy-blue: #151f1e;
+  --cream: #fff9e9;
+  --light-green: #5a8100;
+  --orange: #ff6c02;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}

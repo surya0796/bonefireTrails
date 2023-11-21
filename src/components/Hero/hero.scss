@@ -1,0 +1,52 @@
+.hero {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  z-index: -1;
+  &__overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  &__carousel-btn {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 25px;
+    color: white;
+    z-index: 10;
+  }
+  &__next-btn {
+    right: 0;
+  }
+  &__card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    &::-webkit-media-controls {
+      display: none;
+    }
+  }
+  &__cta-container {
+    display: flex;
+    align-items: flex-end;
+    padding: 50px;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    translate: 0 25%;
+  }
+  &__cta {
+    padding: 1em 2em;
+  }
+}

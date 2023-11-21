@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 25px 0;
+  background-color: rgba(42, 64, 61, 0.3);
+  align-items: center;
+
+  &:hover {
+    background-color: var(--dark-green);
+  }
+
+  &__items,
+  &__account-items {
+    display: flex;
+    gap: 5px;
+  }
+}
